@@ -1,4 +1,4 @@
-# Pwc Switzerland Power BI virtual case experience - Call Center Customer Satisfication Analysis
+# Pwc Switzerland Power BI virtual case experience - Call Center Customer Satisfaction Analysis
 ![image](https://user-images.githubusercontent.com/24377958/226614142-0032363b-ecec-4d73-bf2b-159a35db0ce7.png)
 
 # Table of Contents
