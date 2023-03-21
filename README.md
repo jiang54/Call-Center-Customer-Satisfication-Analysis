@@ -74,12 +74,13 @@ Data Cleaning for the dataset was done in power query as follows:
 
 After the dataset was cleaned and transformed, it was ready to be modeled.
 The fact and dimension have been combined into one table and is shown in the data model below
+
 ![image](https://user-images.githubusercontent.com/24377958/226616203-ea251e2b-dc9f-4e6f-a0ac-a9fe9ffa7afe.png)
 
 # Data Analysis
 Add Necessary Measures and tables
-New table 'Satisfy = 
+New table `Satisfy = 
 FILTER(
     VALUES(Sheet1[Satisfy]),
     NOT(ISBLANK(Sheet1[Satisfy]))
-)'
+)`
