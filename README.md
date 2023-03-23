@@ -88,7 +88,9 @@ hour added to Sheet1:
 `hour = if(HOUR(Sheet1[Time]) >=18,17,HOUR(Sheet1[Time]))` 
 
 Satisfy added to Sheet1:
+
 `Satisfy = SWITCH(True(),value([Satisfaction rating])>=4,"Satisfy",value([Satisfaction rating])>=1,"Unsatisfy",blank())`
+
 Other Necessary Measures in a new table `All Measures`
 
 `answer amount = countrows(filter('Sheet1',[Answered (Y/N)] = "Y"))`
