@@ -19,14 +19,6 @@
 The purpose of this analysis is to create a dashboard for the call center manager that reflects all relevant Key Performance indicators(KPIs)
 and metrics in the dataset.
 
-Possible KPIs include(but not limited to):
-- Overall customer satisfaction
-- Overall calls answered/abandoned
-- Calls by time
-- Average speed of answer
-- Agents performance quadrant -> average handle time(talk duration) vs calls answered
-
-
 ---
 
 # Data Sourcing
@@ -46,6 +38,12 @@ The call center dataset is given by a table named:
 
 - `Call Center` which has `10 columns and 5000 rows` of observation
 
+Possible KPIs include(but not limited to):
+- Overall customer satisfaction
+- Overall calls answered/abandoned
+- Calls by time
+- Average speed of answer
+- Agents performance quadrant -> average handle time(talk duration) vs calls answered
 
 The tabulation below shows the `Call Center` table with its column names and their description:
 | Column Name | Description |
