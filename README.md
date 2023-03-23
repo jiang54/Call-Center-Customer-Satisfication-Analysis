@@ -77,12 +77,16 @@ The fact and dimension have been combined into one table and is shown in the dat
 
 # Data Analysis
 Add Necessary Measures and tables
+
 New table `Satisfy = 
 FILTER(
     VALUES(Sheet1[Satisfy]),
     NOT(ISBLANK(Sheet1[Satisfy])))`
+    
 hour added to Sheet1:
+
 `hour = if(HOUR(Sheet1[Time]) >=18,17,HOUR(Sheet1[Time]))` 
+
 Satisfy added to Sheet1:
 `Satisfy = SWITCH(True(),value([Satisfaction rating])>=4,"Satisfy",value([Satisfaction rating])>=1,"Unsatisfy",blank())`
 Other Necessary Measures in a new table `All Measures`
